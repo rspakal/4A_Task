@@ -4,10 +4,10 @@ using System.Data;
 
 namespace LibraryDAL.Services
 {
-    public class BookService : IBookServie
+    public class BookRepository : IBookRepository
     {
         private readonly string _connectionString;
-        public BookService(string connectionString)
+        public BookRepository(string connectionString)
         {
             _connectionString = connectionString;
         }
@@ -52,7 +52,7 @@ namespace LibraryDAL.Services
                         {
                             Id = (int)reader["Id"],
                             Title = (string)reader["Title"],
-                            Author = (string)reader["Authot"]
+                            Author = (string)reader["Author"]
                         };
                     }
                 }

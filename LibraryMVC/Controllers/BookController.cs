@@ -6,8 +6,8 @@ namespace LibraryMVC.Controllers
 {
     public class BookController : Controller
     {
-        private readonly IBookServie _bookService;
-        public BookController(IBookServie bookService)
+        private readonly IBookRepository _bookService;
+        public BookController(IBookRepository bookService)
         {
             _bookService = bookService;
         }

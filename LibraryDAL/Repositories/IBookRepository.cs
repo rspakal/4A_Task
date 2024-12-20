@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace LibraryDAL.Services
 {
-    public interface IBookServie
+    public interface IBookRepository
     {
         public Task Add(Book book);
         public Task Delete(int id);

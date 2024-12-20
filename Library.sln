@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryMVC", "LibraryMVC\LibraryMVC.csproj", "{43DBC63E-4524-4A96-920C-5223E3E89009}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryMVC", "LibraryMVC\LibraryMVC.csproj", "{43DBC63E-4524-4A96-920C-5223E3E89009}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryDAL", "LibraryDAL\LibraryDAL.csproj", "{339127EC-0467-4FDC-ABA8-1749195279B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryDAL", "LibraryDAL\LibraryDAL.csproj", "{339127EC-0467-4FDC-ABA8-1749195279B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryServices", "LibraryServices\LibraryServices.csproj", "{B200494E-353D-4815-AD0A-8457D1241A44}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{339127EC-0467-4FDC-ABA8-1749195279B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{339127EC-0467-4FDC-ABA8-1749195279B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{339127EC-0467-4FDC-ABA8-1749195279B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B200494E-353D-4815-AD0A-8457D1241A44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B200494E-353D-4815-AD0A-8457D1241A44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B200494E-353D-4815-AD0A-8457D1241A44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B200494E-353D-4815-AD0A-8457D1241A44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,11 +4,11 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddScoped<IBookServie, BookService>(provider =>
+builder.Services.AddScoped<IBookRepository, BookRepository>(provider =>
 {
     var configuration = provider.GetRequiredService<IConfiguration>();
     var connectionString = configuration.GetConnectionString("DefaultConnection");
-    return new BookService(connectionString);
+    return new BookRepository(connectionString);
 });
 
 var app = builder.Build();
